@@ -1,0 +1,35 @@
+CREATE TABLE global_superstore_backup AS
+SELECT *
+FROM global_superstore;
+
+ALTER TABLE global_superstore
+RENAME COLUMN `Row ID` TO row_id,
+RENAME COLUMN `Order ID` TO order_id,
+RENAME COLUMN `Order Date` TO order_date,
+RENAME COLUMN `Ship Date` TO ship_date,
+RENAME COLUMN `Ship Mode` TO ship_mode,
+RENAME COLUMN `Customer ID` TO customer_id,
+RENAME COLUMN `Customer Name` TO customer_name,
+RENAME COLUMN `Segment` TO segment,
+RENAME COLUMN `Postal Code` TO postal_code,
+RENAME COLUMN `City` TO city,
+RENAME COLUMN `State` TO state,
+RENAME COLUMN `Country` TO country,
+RENAME COLUMN `Region` TO region,
+RENAME COLUMN `Market` TO market,
+RENAME COLUMN `Product ID` TO product_id,
+RENAME COLUMN `Category` TO category,
+RENAME COLUMN `Sub-Category` TO sub_category,
+RENAME COLUMN `Product Name` TO product_name,
+RENAME COLUMN `Sales` TO sales,
+RENAME COLUMN `Quantity` TO quantity,
+RENAME COLUMN `Discount` TO discount,
+RENAME COLUMN `Profit` TO profit,
+RENAME COLUMN `Shipping Cost` TO shipping_cost,
+RENAME COLUMN `Order Priority` TO order_priority,
+RENAME COLUMN `Order Year` TO order_year,
+RENAME COLUMN `Order Month` TO order_month,
+RENAME COLUMN `Month Name` TO month_name,
+RENAME COLUMN `Quarter` TO quarter,
+RENAME COLUMN `Shipping Days` TO shipping_days,
+RENAME COLUMN `Profit Margin (%)` TO profit_margin;
