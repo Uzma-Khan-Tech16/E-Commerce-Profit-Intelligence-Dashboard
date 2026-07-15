@@ -1,6 +1,6 @@
 # 📊 E-Commerce Profit Intelligence Dashboard
 
-![Dashboard Banner](screenshots/executive_overview.png)
+![Dashboard Banner](Images/Executive_Overview.png)
 
 An end-to-end Data Analytics & Business Intelligence project built using Python, MySQL, Power BI, and DAX.
 
