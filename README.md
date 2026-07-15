@@ -5,7 +5,7 @@
 An end-to-end Data Analytics & Business Intelligence project built using Python, MySQL, Power BI, and DAX.
 
 
-# Tech Badges ⭐
+# Tech Badges 
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
