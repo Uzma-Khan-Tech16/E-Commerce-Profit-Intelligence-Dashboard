@@ -50,8 +50,9 @@ The objective is to transform raw business data into meaningful insights that su
 - Git & GitHub
 
 
-# Project Structure
+# 📂 Project Structure
 
+```text
 E-Commerce-Profit-Intelligence-Dashboard/
 │
 ├── PowerBI/
@@ -77,7 +78,10 @@ E-Commerce-Profit-Intelligence-Dashboard/
 │   ├── Profit_Analysis.png
 │   └── Customer_Market_Insights.png
 │
+├── .gitignore
+├── LICENSE
 └── README.md
+```
 
 
 # Key Features
